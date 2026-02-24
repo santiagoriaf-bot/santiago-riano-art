@@ -153,5 +153,22 @@ export const exhibitionsConfig: ExhibitionsConfig = {
       id: 1,
       title: "Urban Farragos",
       image: "/images/urban_farragos_cover.png",
-      date: "2023 — Bogotá, Colombia",
-      link: "/exhibition/urban
+      date: "2023 — Bogota, Colombia",
+      link: "/exhibition/urban-farragos",
+    },
+    {
+      id: 2,
+      title: "Ruderales",
+      image: "/images/ruderales_cover.png",
+      date: "2023 — Medellin, Colombia",
+      link: "/exhibition/ruderales",
+    },
+    {
+      id: 3,
+      title: "Seventy Second and Zero",
+      image: "/images/seventy-second/seventy_003.png",
+      date: "2024 — Bogota, Colombia",
+      link: "/exhibition/seventy-second",
+    },
+  ],
+};

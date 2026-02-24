@@ -172,3 +172,38 @@ export const exhibitionsConfig: ExhibitionsConfig = {
     },
   ],
 };
+export const collectionsConfig: CollectionsConfig = {
+  label: "Available Works",
+  headline: "PRINTS",
+  ctaText: "Inquire",
+  collections: [
+    {
+      id: 1,
+      title: "Veils in Concrete",
+      year: "2023",
+      description: "A series exploring the tension between permanence and ephemerality through layered printing on unconventional surfaces.",
+      image: "/images/collection-veils.jpg",
+    },
+    {
+      id: 2,
+      title: "Urban Botanical",
+      year: "2022",
+      description: "Botanical forms emerging from urban textures, revealing the hidden natural world within city landscapes.",
+      image: "/images/collection-botanical.jpg",
+    },
+    {
+      id: 3,
+      title: "Material Studies",
+      year: "2021",
+      description: "Investigations into the physical properties of paper, ink, and found materials as carriers of meaning.",
+      image: "/images/collection-urban.jpg",
+    },
+    {
+      id: 4,
+      title: "Ephemeral Traces",
+      year: "2020",
+      description: "Works that capture moments of transition, where materials speak to the impermanence of memory.",
+      image: "/images/collection-1.jpg",
+    },
+  ],
+};

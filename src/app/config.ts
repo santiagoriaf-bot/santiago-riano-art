@@ -108,21 +108,21 @@ export interface FooterConfig {
 
 export const siteConfig: SiteConfig = {
   language: "en",
-  title: "Santiago Riaño",
+  title: "Santiago Riano",
   description: "Colombian visual artist exploring interconnectivity, layering, and impermanence through unconventional printing techniques.",
 };
 
 export const heroConfig: HeroConfig = {
   brandLeft: "SANTIAGO",
-  brandRight: "RIAÑO",
+  brandRight: "RIANO",
   tagline: "Exploring symbols through layered processes that uncover relationships between image, memory, and presence.",
-  badge: "Bogotá, Colombia",
+  badge: "Bogota, Colombia",
   since: "CONCEPT - SYMBOL - MATTER",
   email: "studio@santiagoriano.art",
   heroImage: "/images/hero-purple.png",
-  heroImageAlt: "Santiago Riaño - Abstract Artwork",
+  heroImageAlt: "Santiago Riano - Abstract Artwork",
   scrollText: "Scroll to Explore",
-  copyrightText: "© 2024 Santiago Riaño",
+  copyrightText: "2024 Santiago Riano",
   navLinks: [
     { label: "WORK", href: "#exhibitions" },
     { label: "PRINTS", href: "#collections" },
@@ -138,7 +138,7 @@ export const heroConfig: HeroConfig = {
 export const aboutConfig: AboutConfig = {
   label: "The Practice",
   headline: "Revealing hidden value",
-  description: "Santiago Riaño is a Colombian visual artist whose practice explores interconnectivity, layering, and impermanence. Through unconventional printing techniques and introspective processes, he materializes memory into contemplative works. His practice reveals hidden value in unseen places, approaching them through symbol and matter.",
+  description: "Santiago Riano is a Colombian visual artist whose practice explores interconnectivity, layering, and impermanence. Through unconventional printing techniques and introspective processes, he materializes memory into contemplative works. His practice reveals hidden value in unseen places, approaching them through symbol and matter.",
   bottomText: "",
   galleryImages: [],
   stats: [],
@@ -152,7 +152,7 @@ export const exhibitionsConfig: ExhibitionsConfig = {
     {
       id: 1,
       title: "Urban Farragos",
-      image: "/images/urban_farragos_cover.png",
+      image: "/images/urban_f.png",
       date: "2023 — Bogota, Colombia",
       link: "/exhibition/urban-farragos",
     },
@@ -172,6 +172,7 @@ export const exhibitionsConfig: ExhibitionsConfig = {
     },
   ],
 };
+
 export const collectionsConfig: CollectionsConfig = {
   label: "Available Works",
   headline: "PRINTS",
@@ -205,5 +206,68 @@ export const collectionsConfig: CollectionsConfig = {
       description: "Works that capture moments of transition, where materials speak to the impermanence of memory.",
       image: "/images/collection-1.jpg",
     },
+  ],
+};
+
+export const testimonialsConfig: TestimonialsConfig = {
+  quote: "Riano's work invites us to see beyond the surface, to find beauty in the overlooked, and to contemplate the deep connections between material and meaning. His practice is a meditation on presence and absence.",
+  authorName: "Maria Fernanda Cruz",
+  authorTitle: "Curator, Museo de Arte Moderno de Bogota",
+  authorImage: "/images/testimonial-author.jpg",
+};
+
+export const visitConfig: VisitConfig = {
+  label: "Get in Touch",
+  headline: "Contact",
+  description: "For inquiries about artworks, exhibitions, or collaborations, please reach out. Studio visits are available by appointment.",
+  ctaText: "Send Email",
+  infoCards: [
+    {
+      icon: "MapPin",
+      title: "Studio",
+      content: "Bogota, Colombia",
+    },
+    {
+      icon: "Clock",
+      title: "Availability",
+      content: "Monday — Friday<br />9:00 AM — 6:00 PM",
+    },
+    {
+      icon: "Calendar",
+      title: "Visits",
+      content: "By Appointment",
+    },
+    {
+      icon: "Ticket",
+      title: "Inquiries",
+      content: "studio@santiagoriano.art",
+    },
+  ],
+};
+
+export const footerConfig: FooterConfig = {
+  marqueeText: "Exploring symbols through layered processes that uncover relationships between image, memory, and presence.",
+  brandName: "SANTIAGO RIANO",
+  brandDescription: "Colombian visual artist exploring interconnectivity, layering, and impermanence through unconventional printing techniques.",
+  socialLinks: [
+    { label: "Instagram", href: "https://instagram.com/santiagoriano" },
+    { label: "Twitter", href: "https://twitter.com/santiagoriano" },
+    { label: "Linkedin", href: "https://linkedin.com/in/santiagoriano" },
+  ],
+  quickLinks: [
+    { label: "WORK", href: "#exhibitions" },
+    { label: "PRINTS", href: "#collections" },
+    { label: "STORIES", href: "#about" },
+    { label: "CONTACT", href: "#visit" },
+  ],
+  quickLinksTitle: "Navigation",
+  contactTitle: "Contact",
+  contactItems: [
+    "studio@santiagoriano.art",
+    "Bogota, Colombia",
+  ],
+  bottomLinks: [
+    { label: "Privacy", href: "#" },
+    { label: "Terms", href: "#" },
   ],
 };
